@@ -6,12 +6,14 @@ This folder contain relevant information about the data processing of V0s in pPb
 
 V0 skim production -> tree production -> matching V0 trees with forest -> produce histograms -> run macros to obtain observables
 
+First, go to github and fork this repository: https://github.com/davidlw/VertexCompositeAnalysis
+
 ## CMSSW setup (at LXPLUS)
 ```
 cmsrel CMSSW_8_0_28
 cd CMSSW_8_0_28/src
 cmsenv
-git clone git@github.com:davidlw/VertexCompositeAnalysis.git
+git clone git@github.com:your_user_name/VertexCompositeAnalysis.git
 scram b -j 10
 ```
 
