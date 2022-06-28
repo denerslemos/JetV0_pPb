@@ -25,6 +25,11 @@ For a test, you can run the VertexCompositeProducer/test/pPbSkim2016_V0_cfg.py u
 ```
 cmsRun pPbSkim2016_V0_cfg.py
 ```
+
+If you are running on a non-local data/MC sample, you need to call the certificate as:
+```
+voms-proxy-init -rfc -voms cms
+```
   
 ## Skim processing
 ### MC Simulations with PYTHIA
