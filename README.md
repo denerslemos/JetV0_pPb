@@ -24,6 +24,14 @@ The skim production step is included in the folder VertexCompositeProducer.
   - selections: https://github.com/davidlw/VertexCompositeAnalysis/blob/master/VertexCompositeProducer/python/generalV0Candidates_cfi.py
   - content: https://github.com/davidlw/VertexCompositeAnalysis/blob/master/VertexCompositeProducer/python/ppanalysisSkimContentV0_cff.py
 
+To make if work, change:
+
+```process.load("RiceHIG.Skim2013.ppanalysisSkimContentV0_cff")```
+
+to 
+
+```process.load("VertexCompositeAnalysis.VertexCompositeProducer.ppanalysisSkimContentV0_cff")```
+
 For a test, you can run the VertexCompositeProducer/test/pPbSkim2016_V0_cfg.py using:
 ```
 cmsRun pPbSkim2016_V0_cfg.py
