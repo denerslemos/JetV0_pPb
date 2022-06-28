@@ -19,10 +19,7 @@ The skim production step is included in the folder VertexCompositeProducer.
 - for V0s:
   - code: https://github.com/davidlw/VertexCompositeAnalysis/blob/master/VertexCompositeProducer/src/V0Fitter.cc
   - configuration: https://github.com/davidlw/VertexCompositeAnalysis/blob/master/VertexCompositeProducer/test/pPbSkim2016_V0_cfg.py
-  - skim content: https://github.com/davidlw/VertexCompositeAnalysis/blob/master/VertexCompositeProducer/python/ppanalysisSkimContentV0_cff.py
   - selections: https://github.com/davidlw/VertexCompositeAnalysis/blob/master/VertexCompositeProducer/python/generalV0Candidates_cfi.py
-
-In the content we can keep only K0s and Lambdas (cascades and omegas?) initially (to reduce the size).
 
 For a test, you can run the VertexCompositeProducer/test/pPbSkim2016_V0_cfg.py using:
 ```
